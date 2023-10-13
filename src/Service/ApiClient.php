@@ -17,10 +17,10 @@ class ApiClient
     private $client;
     //Service url
     private $apiUrl = 'https://sandbox.ar24.fr/api';
-    //Service token
-    private $token = 'bb40d0e5405f132148ddfa402a7a936554f5fbb5';
-    //Service key
-    private $privateKey = 'd71c08c1d9f6080ff7dac0c6a1d5dd7304215e93';
+    //Service token - secure by storing in external file with read only for wwww user
+    private $token = 'xxx';
+    //Service key - secure by storing in external file with read only for wwww user
+    private $privateKey = 'xxx';
     //Key used in signature
     private $hashedPrivateKey;
     private $serializer;

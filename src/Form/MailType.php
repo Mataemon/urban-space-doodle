@@ -21,7 +21,7 @@ class MailType extends AbstractType
             ->add('toEmail', TextType::class)
             ->add('attachment', FileType::class, [
                 'mapped' => false,
-                'required' => false,
+                'required' => true,
                 'constraints' => [
                     new File([
                         'maxSize' => '256k'
